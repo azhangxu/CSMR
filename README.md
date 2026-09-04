@@ -1,19 +1,24 @@
 # CSMR study analysis code
 
-Analysis code for cell-type specificity, disease specificity, MDTPS, single-cell analysis and virtual knockout, accompanying the existing [CSMR](https://github.com/azhangxu/CSMR) upstream scripts.
+Analysis code for cell-type-specific eQTL instrument preparation, two-sample Mendelian randomization (MR), colocalization, cell-type and disease specificity, MDTPS, single-cell analysis and virtual knockout.
 
-| Analysis | Entry point | Main output |
-|---|---|---|
-| Cell-type specificity | `scripts/analysis_final.R` | Excel workbook: gene-level Fisher results and gene specificity list |
-| Disease specificity | `scripts/analysis_coloc_specificity.R` | Eight numerical result tables |
-| MDTPS | `scripts/run_mdtps.R` | Excel workbook of target-prioritization scores |
-| Direct single-cell annotation | `scripts/scrna_direct_annotation.R` | GSE117570 annotated objects and Plasma differential-expression tables |
-| Hierarchical single-cell annotation | `scripts/scrna_hierarchical_annotation.R` | GSE166555 annotated objects and CD8 differential-expression tables |
-| Virtual knockout | `scripts/virtual_knockout.R` | scTenifoldKnk objects and differential-regulation tables for a selected task |
+| Analysis | Script |
+|---|---|
+| OneK1K eQTL instrument preparation: significance filtering, exposure-data formatting and LD clumping | `csMR.R` |
+| Merge cell-type eQTL exposure tables and retain cell-type identifiers | `merge_cell.R` |
+| Two-sample MR using Wald ratio and inverse-variance weighted methods, with Bonferroni correction | `mr.R` |
+| Bayesian colocalization of eQTL and GWAS signals using coloc.abf | `coloc.R` |
+| Identify MR gene–cell–cancer combinations absent from the colocalization summary | `find_diff.R` |
+| Cell-type specificity | `scripts/analysis_final.R` |
+| Disease specificity | `scripts/analysis_coloc_specificity.R` |
+| MDTPS | `scripts/run_mdtps.R` |
+| Direct single-cell annotation | `scripts/scrna_direct_annotation.R` |
+| Hierarchical single-cell annotation | `scripts/scrna_hierarchical_annotation.R` |
+| Virtual knockout | `scripts/virtual_knockout.R` |
 
-## Run
+## Run downstream modules
 
-Install the packages in [docs/SOFTWARE.md](docs/SOFTWARE.md), prepare the inputs described in [data/README.md](data/README.md), and run from the repository root. `research-code.Rproj` opens this directory in RStudio. Use a fresh R session for each analysis.
+For the downstream modules, install the packages in [docs/SOFTWARE.md](docs/SOFTWARE.md), prepare the inputs described in [data/README.md](data/README.md), and run from the repository root. `research-code.Rproj` opens this directory in RStudio. Use a fresh R session for each analysis.
 
 ```sh
 Rscript --vanilla scripts/analysis_final.R
@@ -32,4 +37,4 @@ Outputs are saved under `results/` and replaced when the same module is rerun. S
 - [Single-cell workflows](docs/SINGLE_CELL.md): two runnable examples illustrate direct annotation (GSE117570) and hierarchical annotation (GSE166555). The 11 datasets for 10 cancers, cluster labels and stage settings are recorded in `config/`. Dataset-specific sample selection, cleaning and reclustering are described in the single-cell documentation; the examples do not automate all lineages in all datasets.
 - [Virtual knockout](docs/VIRTUAL_KNOCKOUT.md): `config/knockout_tasks.csv` records the 12 gene–subtype–dataset combinations and their settings. Eleven tasks use annotated Seurat objects; RPS23 uses its prepared count matrix and seed 123.
 
-The existing root-level CSMR scripts (`csMR.R`, `merge_cell.R`, `mr.R`, `coloc.R`, `find_diff.R`) provide the upstream analysis code. These downstream modules use prepared inputs and relative paths.
+The root-level eQTL, MR and colocalization scripts use study-specific paths, outcome identifiers and intermediate analysis objects. Set these paths and identifiers and prepare the required objects before running the corresponding scripts.
