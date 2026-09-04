@@ -1,0 +1,29 @@
+# Local data and generated results: share selected files deliberately.
+data/**/*.xlsx
+data/**/*.csv
+results/
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.DS_Store
+Thumbs.db
+
+# Single-cell matrices and analysis objects (keep small config/ CSVs tracked).
+data/**/*.rds
+data/**/*.RDS
+data/**/*.RData
+data/**/*.Rdata
+data/**/*.gz
+data/**/*.tar
+data/**/*.zip
+data/**/*.mtx
+data/**/*.tsv
+data/**/*.txt
+data/**/*.h5
+data/**/*.h5ad
+data/**/*.loom
+*.pem
+*.key
+.env

@@ -1,0 +1,810 @@
+dataset,source_file,mapping,mapping_line,cluster,label
+GSE173682;GSE179640,Endometrial_cancer/B_bindname/④B细胞分析脚本.R,b_annotation,186,0,Bin
+GSE173682;GSE179640,Endometrial_cancer/B_bindname/④B细胞分析脚本.R,b_annotation,186,1,Plasma
+GSE173682;GSE179640,Endometrial_cancer/B_bindname/④B细胞分析脚本.R,b_annotation,186,2,unkown
+GSE173682;GSE179640,Endometrial_cancer/B_bindname/④B细胞分析脚本.R,b_annotation,186,3,Bin
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,0,Contamination
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,1,Uncertain
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,2,CD4+T
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,3,CD4+T
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,4,CD4+T
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,5,Contamination
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,6,Contamination
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,CD4_annotation,143,7,CD4+T
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,0,CD4_NC
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,1,Treg
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,2,CD4_ET
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,3,unknown
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,4,CD4_ET
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,5,CD4_SOX4
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,6,CD4_ET
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,7,CD4_NC
+GSE173682;GSE179640,Endometrial_cancer/CD4_bindname/⑥CD4+T细胞数据分析脚本.R,cd4_annotation,392,8,unknown
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,0,CD8_memory_like
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,1,CD8_memory_like
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,2,CD8_ET_like
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,3,CD8_NC
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,4,CD8_ET
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,5,CD8_ET
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,cd8_annotation,403,6,CD8_ET_like
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,160,0,CD8+T
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,160,1,CD8+T
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,160,2,CD8+T
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,160,5,CD8+T
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,160,6,CD8+T
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,160,7,CD8+T
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,161,3,T cells
+GSE173682;GSE179640,Endometrial_cancer/CD8_bindname/②CD8数据分析脚本.R,celltype_selection,161,4,T cells
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,0,Epithelial_contaminant
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,1,Stromal_contaminant
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,2,DC
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,3,Monocyte_contaminant
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,4,Fibroblast_contaminant
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,5,B_plasma_contaminant
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,6,Mesenchymal_contaminant
+GSE173682;GSE179640,Endometrial_cancer/DC_bindname/⑧DC细胞分析脚本.R,DC_annotation,139,7,Epithelial_contaminant
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,0,Mono_C
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,1,Mono_C
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,2,Mono_C
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,3,Mono_C
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,4,Mono_NC
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,5,Monocyte
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,6,Monocyte
+GSE173682;GSE179640,Endometrial_cancer/Mono_bindname/⑦Mono细胞数据分析脚本.R,mono_annotation,166,7,Mono_C
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,0,NK_R
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,1,NK_R
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,2,NK_unknown
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,3,NK
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,4,NK_unknown
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,5,NK_R_like
+GSE173682;GSE179640,Endometrial_cancer/NK_bindname/③NK分析脚本.R,nk_annotation,234,6,NK
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,0,stromal
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,1,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,2,stromal
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,3,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,4,stromal
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,5,immune
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,6,immune
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,7,immune
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,8,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,9,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,10,stromal
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,11,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,12,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,13,immune
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,14,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,15,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,16,immune
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,17,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,celltype_annotation,500,18,epithelial/cancer
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,0,Activated_CD4_T
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,1,CD8+ T cell
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,2,NK
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,3,Macrophage_TAM
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,4,Langerhans_like_DC
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,5,FCN1_inflammatory_monocyte
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,6,Treg
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,7,B cell
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,8,Fibroblast_like_contaminant
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,9,Mast_cell
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,10,Unknown_contaminant
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,11,IL22_positive_lymphoid
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,12,CD8+ T cell
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,13,Inflammatory_contaminant
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,14,XCR1_positive_cDC1_like
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,15,Unknown_contaminant
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,16,Epithelial_contaminant
+GSE173682;GSE179640,Endometrial_cancer/①数据处理脚本.R,immune_annotation,666,17,pDC
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,0,B_cell
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,1,B_cell
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,2,B_cell
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,3,B_cell
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,4,Bmem
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,5,Plasma
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,6,B_cell
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,7,B_cell
+GSE114725,GSE114725/B_bindname/④B细胞分析脚本.R,b_annotation,178,8,B_cell
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,0,CD4_NC
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,1,CD4_ET
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,2,CD4_NC
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,3,Treg
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,4,CD4_ET
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,5,Treg
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,6,CD4_T
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,7,CD4_ET
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,8,CD4_SOX4
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,9,CD4_SOX4
+GSE114725,GSE114725/CD4T_bindname/②CD4+T细分亚群的脚本.R,cd4_annotation,151,10,CD4_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,0,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,1,CD8_S100B
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,2,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,3,CD8_S100B
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,4,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,5,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,6,CD8_S100B
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,7,CD8_S100B
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,8,CD8_ET
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,9,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,10,CD8_NC
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,11,CD8_S100B
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,12,CD8_ET
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,13,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,14,CD8_T
+GSE114725,GSE114725/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,241,15,CD8_ET
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,0,Macrophage
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,1,Macrophage
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,2,DC
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,3,CD8+ T cells
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,4,Unknown
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,5,Macrophage
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,6,Monocyte
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,7,Monocyte
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,8,Neutrophil
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,9,Monocyte
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,10,DC
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,11,Fibroblasts
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,12,Endothelial cells
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,13,DC
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,14,Macrophage
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,15,Epithelial cells
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mye_annotation,120,16,Mast cells
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,0,Monocyte
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,1,Monocyte
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,2,Mono_C
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,3,Mono_NC
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,4,Mono_C
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,5,Mono_C
+GSE114725,GSE114725/Myeloid_bindname/⑤Myeloid细胞分析脚本.R,mono_annotation,310,6,Mono_C
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,0,CD4+ T
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,1,CD8+ T
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,2,CD4+ T
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,3,Cytotoxic NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,4,CD8+ T
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,5,Fibroblasts
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,6,B cells
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,7,Treg
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,8,NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,9,CD8+ T
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,10,CD4+ T
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,11,T cells
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,TNK_annotation,11,12,T cells
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,0,NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,1,NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,2,NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,3,NK_cell
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,4,NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,5,NK_R
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,6,NK_R
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,7,NK
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,8,NK_cell
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,9,NK_cell
+GSE114725,GSE114725/NK_bindname/⑦NK细胞分析脚本.R,nk_annotation,196,10,NK_cell
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,0,T/NK cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,1,T/NK cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,2,T/NK cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,3,T/NK cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,4,T/NK cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,5,Fibroblasts
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,6,Myeloid cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,7,Endothelial cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,8,Fibroblasts
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,9,Myeloid cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,10,Myeloid cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,11,Epithelial cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,12,Fibroblasts
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,13,T/NK cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,14,B cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,15,Myeloid cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_annotation,242,16,Epithelial cells
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,0,CD4+ T
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,1,CD8+ T
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,2,CD4+ T
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,3,Cytotoxic NK
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,4,CD8+ T
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,5,Fibroblasts
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,6,B cells
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,7,Treg
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,8,NK
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,9,CD8+ T
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,10,CD4+ T
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,11,T cells
+GSE114725,GSE114725/①数据分析脚本.R,TNK_annotation,430,12,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,695,0,CD8+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,695,3,CD8+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,695,4_0,CD8+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,695,4_3,CD8+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,696,2,CD4+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,696,6,CD4+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,696,9,CD4+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,696,10_1,CD4+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,696,11,CD4+T
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,697,7,Myeloid cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,698,8,Mast cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,1_0,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,1_1,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,1_2,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,1_3,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,4_1,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,4_2,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,5_0,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,5_1,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,5_2,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,699,10_0,T cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,703,4_4,Other cells
+GSE114725,GSE114725/①数据分析脚本.R,celltype_selection,703,5_3,Other cells
+GSE117570,GSE117570/B_bindname/③B细胞分析脚本.R,b_annotation,184,0,Plasma
+GSE117570,GSE117570/B_bindname/③B细胞分析脚本.R,b_annotation,184,1,Plasma
+GSE117570,GSE117570/B_bindname/③B细胞分析脚本.R,b_annotation,184,2,Plasma
+GSE117570,GSE117570/B_bindname/③B细胞分析脚本.R,b_annotation,184,3,Plasma
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,Mono_annotation,110,0,Macrophages
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,Mono_annotation,110,1,SPP1+ macrophages
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,Mono_annotation,110,2,C1Q+ macrophages
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,Mono_annotation,110,3,FCN1+ monocytes
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,Mono_annotation,110,4,Myeloid cells
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,Mono_annotation,110,5,Endothelial cells
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,mono_annotation,317,0,Mono_C
+GSE117570,GSE117570/Monocytes_DC_bindname/⑧单核细胞数据分析脚本.R,mono_annotation,317,1,Mono_NC
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mye_annotation,160,0,Monocyte
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mye_annotation,160,1,Monocyte
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mye_annotation,160,2,Monocyte
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mye_annotation,160,3,Monocyte
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mye_annotation,160,4,Macrophage
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mono_annotation,341,0,Mono
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mono_annotation,341,1,Mono
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mono_annotation,341,2,Mono_NC
+GSE117570,GSE117570/Mye_bindname/Mono_bindname/④单核细胞分析脚本.R,mono_annotation,341,3,Mono_C
+GSE117570,GSE117570/T_bindname/②CD4分析脚本.R,T_annotation,193,0,CD4+ T
+GSE117570,GSE117570/T_bindname/②CD4分析脚本.R,T_annotation,193,1,T cells
+GSE117570,GSE117570/T_bindname/②CD4分析脚本.R,T_annotation,193,2,T cells
+GSE117570,GSE117570/T_bindname/②CD4分析脚本.R,T_annotation,193,3,T cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,0,Macrophages
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,1,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,2,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,3,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,4,Myeloid cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,5,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,6,Myeloid cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,7,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,8,Unknown
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,9,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,10,B cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,11,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,12,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,13,T cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,14,Epithelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,15,Mixed cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,16,Endothelial cells
+GSE117570,GSE117570/①数据分析脚本.R,celltype_annotation,290,17,Fibroblasts
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,0,Bmem_like
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,1,Bmem_like
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,2,Bin
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,3,Plasma
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,4,Plasma
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,5,Plasma_cell_like
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,6,Transitional_B_cell
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,7,Bmem_like
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,8,Unknown
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,9,Bin_to_plasma_transitional
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,10,Activated_Bin
+GSE131907,GSE131907/B_bindname/④B细胞分析脚本.R,b_annotation,170,11,Unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,0,unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,1,CD4_NC
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,2,unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,3,CD4_ET
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,4,CD4_NC
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,5,Treg
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,6,unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,7,CD4_ET
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,8,CD4_ET
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,9,Treg
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,10,unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,11,unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,12,unknown
+GSE131907,GSE131907/CD4_bindname/⑨CD4细胞数据分析脚本.R,cd4_annotation,244,13,unknown
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,0,Mono_NC
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,1,Mono_C
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,2,Mono_C_like
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,3,Intermediate
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,4,Mono_C
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,5,Mono_C_like
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,6,Mono_NC_like
+GSE131907,GSE131907/Mono_bindname/③单核细胞分析脚本.R,mono_annotation,177,7,Rare_Mono_C_like
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,0,NK
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,1,NK
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,2,NK
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,3,NK
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,4,NK_R_like
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,5,NK_R
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,6,NK
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,7,NK_like
+GSE131907,GSE131907/NK_bindname/⑥NK细胞分析脚本.R,nk_annotation,175,8,NK
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,0,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,1,CD8_memory_like
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,2,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,3,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,4,CD8_NC
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,5,CD8_transitional
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,6,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,7,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,8,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,9,CD8_S100B_like
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,10,CD8_ET
+GSE131907,GSE131907/T_bindname/②CD8数据分析脚本.R,cd8_annotation,235,11,Rare_CD8_S100B_like
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,0,Bin
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,1,Plasma
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,2,unknown
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,3,unknown
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,4,Plasma
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,5,Plasma
+GSE156632,GSE156632/B_bindname/④B细胞分析脚本.R,b_annotation,211,6,unknown
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,0,Inflammatory macrophages
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,1,CCL18+ TAM-like macrophages
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,2,Activated macrophages
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,3,cDC2 / Langerhans-like DC
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,4,Monocytes
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,5,Unknown contaminant
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,6,gamma-delta T / NK-like cells
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,7,Monocytes
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,8,Monocytes
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,9,Erythroid / epithelial-like contaminant
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,10,Hypoxia-metabolic contaminant
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,11,cDC1 / mregDC-like DC
+GSE156632,GSE156632/Mye_bindname/DC_bindname/⑦DC细胞分析脚本.R,Mye_annotation,13,12,LAM-like macrophages
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,0,Inflammatory macrophages
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,1,CCL18+ TAM-like macrophages
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,2,Activated macrophages
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,3,cDC2 / Langerhans-like DC
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,4,Monocytes
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,5,Unknown contaminant
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,6,gamma-delta T / NK-like cells
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,7,Monocytes
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,8,Monocytes
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,9,Erythroid / epithelial-like contaminant
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,10,Hypoxia-metabolic contaminant
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,11,cDC1 / mregDC-like DC
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,Mye_annotation,176,12,LAM-like macrophages
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,0,Mono_NC
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,1,Mono_NC
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,2,Mono_C_like
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,3,Intermediate
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,4,Intermediate
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,5,Mono_C
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,6,Mono_C_like
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,7,Mono_C
+GSE156632,GSE156632/Mye_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,368,8,Mono_NC
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,0,unknown
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,1,Endothelial
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,2,T cell
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,3,CD8 T cell
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,4,Epithelial-like
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,5,NK cell
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,6,Treg
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,7,NK cell
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,8,Myeloid/Neutrophil
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,9,Mast cell
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,NKT_annotation,161,10,Epithelial-like
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,nk_annotation,355,0,NK
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,nk_annotation,355,1,NK
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,nk_annotation,355,2,NK_R
+GSE156632,GSE156632/NKT_bindname/⑥NK细胞分析脚本.R,nk_annotation,355,3,NK
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,0,CD4_ET
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,1,CD4_ET
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,2,CD4_NC
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,3,CD4_transitional
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,4,CD4_NC
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,5,Unknown
+GSE156632,GSE156632/TNK_bindname/CD4T_bindname/CD4+T细分亚群的脚本.R,cd4_annotation,206,6,Unknown
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,0,CD8_ET
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,1,CD8_GZMK_cytotoxic
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,2,CD8_ET
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,3,CD8_KLRB1hi_like
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,4,CD8_transitional
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,5,CD8_memory_like
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,6,CD8_IL7R_KLRB1_like
+GSE156632,GSE156632/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,7,CD8_GZMK_memory_like
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,0,NK/T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,1,CD8+ T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,2,NK/T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,3,CD4+ T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,4,NK/T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,5,NK/T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,6,CD4+ T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,7,Regulatory T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,8,NK/T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,9,CD8+ T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,10,CD8+ T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,162,11,NK/T cell
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,345,2,CD8+T
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,345,4_0,CD8+T
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,345,4_3,CD8+T
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,346,1,T cells
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,346,7,T cells
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,347,4_1,NK cells
+GSE156632,GSE156632/TNK_bindname/②T细胞清洗步骤脚本.R,celltype_selection,347,4_2,NK cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,0,Juxtaglomerular cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,1,Macrophages
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,2,Epithelial cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,3,Endothelial cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,4,Juxtaglomerular cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,5,T/NK cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,6,Myeloid cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,7,Neuron cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,8,Endothelial cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,9,Epithelial cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,10,Myeloid cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,11,Podocytes
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,12,Neuron cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,13,NK cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,14,Epithelial cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,15,Epithelial cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,16,Neuron cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,17,Proliferating cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,18,Unknown
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,19,Mast cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,20,Fibroblasts
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,21,B cells
+GSE156632,GSE156632/①数据分析脚本.R,celltype_annotation,261,22,Podocytes
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,0,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,1,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,2,unknown
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,3,Bin
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,4,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,5,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,6,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,7,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,8,unknown
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,9,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,10,unknown
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,11,Plasma
+GSE166555,GSE166555/B_bindname/⑤B细胞分析脚本.R,b_annotation,194,12,Bin
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,0,Treg
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,1,CD4_ET
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,2,CD4_NC
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,3,unknown
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,4,CD4_ET
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,5,unknown
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,6,unknown
+GSE166555,GSE166555/TNK_bindname/CD4T_bindname/④CD4+T细胞分析.R,cd4_annotation,206,7,unknown
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,0,unknown
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,1,CD8_S100B
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,2,CD8_ET
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,3,CD8_S100B
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,4,CD8_S100B
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,5,CD8_ET
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,6,CD8_S100B
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,7,unknown
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,8,CD8_ET
+GSE166555,GSE166555/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,9,unknown
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,0,B
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,1,CD4+T
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,2,CD8+T
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,3,B
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,4,B
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,5,CD4+T
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,6,Myeloid
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,7,Myeloid
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,8,unknow
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,9,NK
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,10,B
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,11,Myeloid
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,12,unknow
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,13,unknow
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,14,unknow
+GSE166555,GSE166555/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,15,unknow
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,0,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,1,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,2,Epithelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,3,Epithelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,4,Epithelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,5,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,6,Epithelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,7,Epithelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,8,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,9,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,10,Fibroblast/Stromal
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,11,Epithelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,12,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,13,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,14,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,15,Endothelial
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,16,unknown
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,17,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,18,Immune
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,19,unknown
+GSE166555,GSE166555/①数据分析脚本.R,celltype_annotation,273,20,unknown
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,0,Bmem
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,1,B_cell
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,2,Bmem
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,3,Bin
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,4,Plasma
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,5,B_cell
+GSE181294,GSE181294/B_bindname/⑤B细胞分析脚本.R,b_annotation,186,6,B_cell
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,0,CD4_T
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,1,CD4_NC
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,2,CD4_T
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,3,CD4_T
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,4,Treg
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,5,CD4_ET
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,6,CD4_T
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,7,CD4_T
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,8,CD4_ET
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,9,CD4_T
+GSE181294,GSE181294/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,151,10,CD4_T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,0,CD8_NC
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,1,CD8_S100B
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,2,CD8_T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,3,CD8_T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,4,CD8_T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,5,CD8_T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,6,CD8_ET
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,400,7,CD8_ET
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,0,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,1,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,2,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,3,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,5,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,6,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,8,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,156,10,CD8+T
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,157,4,NK cells
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,158,7,T cells
+GSE181294,GSE181294/CD8_bindname/③CD8+T细分亚群的脚本.R,celltype_selection,158,9,T cells
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,0,Macrophage
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,1,Monocyte
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,2,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,3,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,4,Macrophage
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,5,Mural cell
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,6,Monocyte
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,7,Monocyte
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,8,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,9,Unknown
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,10,Monocyte
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,11,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,12,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,13,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mye_annotation,133,14,DC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,0,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,1,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,2,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,3,Mono_NC
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,4,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,5,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,6,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,7,Mono_C
+GSE181294,GSE181294/Myeloid_bindname/Mono_bindname/⑥单核细胞分析脚本.R,mono_annotation,323,8,Mono_C
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,0,NK_R
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,1,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,2,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,3,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,4,NK_R
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,5,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,6,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,7,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,8,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,nk_annotation,390,9,NK
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,0,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,1,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,2,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,3,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,5,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,6,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,8,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,176,10,CD8
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,177,4,NK cells
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,178,7,T cells
+GSE181294,GSE181294/NK_bindname/④NK细胞分析脚本.R,celltype_selection,178,9,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,0,CD8+ T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,1,CD8+ T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,2,CD4+ T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,3,CD4+ T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,4,Endothelial cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,5,CD4+ T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,6,B cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,7,Treg
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,8,Macrophages
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,9,NK cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,10,Myeloid cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,11,Mast cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,12,Epithelial cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,13,Epithelial cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,14,CD8+ T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,15,Mural cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,16,Epithelial cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,17,Monocytes
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,18,Mural cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,19,DC
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,20,Fibroblasts
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,21,Myeloid cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,22,Plasma cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,23,DC
+GSE181294,GSE181294/①数据分析脚本.R,celltype_annotation,238,24,Mixed epithelial/T-NK
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,483,0,CD4+T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,483,1,CD4+T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,483,2,CD4+T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,483,3,CD4+T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,483,9,CD4+T
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,484,4,Treg
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,485,5,CD8/NK cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,485,6,CD8/NK cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,485,10,CD8/NK cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,7_0,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,7_1,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,7_2,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,7_3,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,7_4,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,8_0,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,8_1,T cells
+GSE181294,GSE181294/①数据分析脚本.R,celltype_selection,486,8_2,T cells
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,0,Treg
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,1,CD4_ET
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,2,CD4_ET
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,3,unknown
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,4,CD4_NC
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,5,unknown
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,6,unknown
+GSE184880,GSE184880/TNK_bindname/CD4T_bindname/③CD4+T细胞亚群脚本.R,cd4_annotation,206,7,Treg
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,0,CD8_ET
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,1,CD8_ET
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,2,CD8_ET
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,3,unknown
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,4,unknown
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,5,CD8_ET
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,6,CD8_ET
+GSE184880,GSE184880/TNK_bindname/CD8T_bindname/③CD8+T细分亚群的脚本.R,cd8_annotation,229,7,unknown
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,0,CD8+ T cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,1,CD4+ T cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,2,T cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,3,NK cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,4,Myeloid
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,5,Other
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,6,Myeloid
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,7,CD4+ T cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,8,B cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,9,Myeloid
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,10,Other
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,11,Other
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,12,Other
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,13,Other
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,14,B cell
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,15,Myeloid
+GSE184880,GSE184880/TNK_bindname/②T细胞清洗步骤脚本.R,TNK_annotation,140,16,Myeloid
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,0,Fibroblast/Stromal
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,1,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,2,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,3,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,4,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,5,unknow
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,6,Epithelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,7,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,8,Endothelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,9,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,10,unknow
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,11,Epithelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,12,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,13,unknow
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,14,Fibroblast/Stromal
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,15,Fibroblast/Stromal
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,16,Epithelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,17,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,18,Endothelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,19,Immune
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,20,Endothelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,21,Fibroblast/Stromal
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,22,Epithelial
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,23,unknow
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,24,unknow
+GSE184880,GSE184880/①数据分析脚本.R,celltype_annotation,303,25,unknow
+GSE254918,GSE254918/TNK_bindname/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,206,0,CD4_NC
+GSE254918,GSE254918/TNK_bindname/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,206,1,CD4_SOX4
+GSE254918,GSE254918/TNK_bindname/CD4T_bindname/②CD4分析脚本.R,cd4_annotation,206,2,Other
+GSE254918,GSE254918/TNK_bindname/NK_bindname/⑤NK细胞分析脚本.R,nk_annotation,150,0,NK_R
+GSE254918,GSE254918/TNK_bindname/NK_bindname/⑤NK细胞分析脚本.R,nk_annotation,150,1,NK
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,0,CD4+ T cell
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,1,Other
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,2,NK cell
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,3,Myeloid
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,4,Other
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,5,Other
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,6,Myeloid
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,7,B cell
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,8,Myeloid
+GSE254918,GSE254918/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,9,Myeloid
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,0,Fibroblast/Stromal
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,1,Immune
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,2,Fibroblast/Stromal
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,3,Epithelial
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,4,Fibroblast/Stromal
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,5,Epithelial
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,6,unknow
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,7,unknow
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,8,Immune
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,9,Fibroblast/Stromal
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,10,Immune
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,11,Immune
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,12,Immune
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,13,Endothelial
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,14,Epithelial
+GSE254918,GSE254918/①数据分析脚本.R,celltype_annotation,273,15,Immune
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,0,B cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,1,B cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,2,Plasmacytoid dendritic cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,3,B cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,4,Unknown cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,5,B cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,6,T cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,7,B cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,8,Unknown cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,9,Myeloid cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,10,B cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,B_annotation,152,11,Unknown cell
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,0,Bin
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,1,Bmem
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,2,Plasma
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,3,Bin
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,4,Plasma
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,5,Bmem
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,6,unknown
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,7,Plasma
+GSE281736,GSE281736/B_bindname/③B细胞分析脚本.R,b_annotation,380,8,unknown
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,0,CD8_ET
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,1,CD8_ET
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,2,unknown
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,3,CD8_S100B
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,4,CD8_S100B
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,5,unknown
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,6,unknown
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,7,unknown
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,8,CD8_ET
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,9,CD8_ET
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,10,CD8_ET
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,11,CD8_NC
+GSE281736,GSE281736/TNK_bindname/CD8T_bindname/③CD8+T细胞分群脚本.R,cd8_annotation,229,12,CD8_S100B
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,0,CD8
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,1,B
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,2,CD4
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,3,Myeloid
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,4,CD4
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,5,NK
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,6,B
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,7,Myeloid
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,8,Myeloid
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,9,unknown
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,10,Myeloid
+GSE281736,GSE281736/TNK_bindname/②免疫细胞分群.R,TNK_annotation,140,11,unknown
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,0,NK
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,1,NK
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,2,NK
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,3,NK
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,4,unknow
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,5,NK_R
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,6,NK_R
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,7,NK
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,8,NK
+GSE281736,GSE281736/TNK_bindname/④NK细胞分析脚本.R,nk_annotation,148,9,unknow
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,0,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,1,Epithelial
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,2,Epithelial
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,3,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,4,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,5,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,6,Endothelial
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,7,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,8,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,9,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,10,Fibroblast/Stromal
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,11,Endothelial
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,12,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,13,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,14,Epithelial
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,15,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,16,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,17,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,18,Fibroblast/Stromal
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,19,Epithelial
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,20,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,21,Immune
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,22,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,23,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,24,unknown
+GSE281736,GSE281736/①数据分析脚本.R,celltype_annotation,304,25,unknown
