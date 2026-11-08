@@ -3,6 +3,10 @@
 Install the packages needed for the modules you intend to run:
 
 ```r
+# eQTL instruments, MR and colocalization (root-level scripts)
+install.packages(c("data.table", "tidyverse", "readxl", "openxlsx2", "writexl", "coloc", "fs", "psych", "remotes"))
+remotes::install_github("MRCIEU/TwoSampleMR")
+
 # Specificity tables and MDTPS Excel input/output
 install.packages(c("readxl", "dplyr", "tidyr", "openxlsx"))
 

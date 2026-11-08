@@ -11,13 +11,15 @@ library(purrr)
 #------------------------------------------------------------
 # 设置路径（修改为你的文件所在目录）
 #------------------------------------------------------------
-input_dir <- "/home/y410993/zx/onek1k/formatted/"  
+input_dir <- "results/instruments"   # csMR.R 的输出
 output_file <- file.path(input_dir, "merged_eqtl.xlsx")
+samplesize_file <- "data/onek1k/eqtl_sample_size_table.xlsx"   # 列：Prefix, Sample_size
 
 #------------------------------------------------------------
 # 获取所有 .xlsx 文件
 #------------------------------------------------------------
 files <- list.files(input_dir, pattern = "\\.xlsx$", full.names = TRUE)
+files <- setdiff(files, output_file)   # 重跑时不读入上一次的合并结果
 files
 # 例如：
 # [1] ".../bin.xlsx" ".../bmem.xlsx" ".../cd4et.xlsx" ...
@@ -51,8 +53,9 @@ merged_data <- merged_data %>%
   mutate(id.exposure = paste(id.exposure, source_file, sep = "_"))
 
 
-merged_data$F_statistics<-(merged_data$beta.exposure)^2/(merged_data$se.exposure)^2
-merged_data1<- subset(merged_data,merged_data$F_statistics>=10)
+# 每个细胞类型的 eQTL 样本量（Steiger 检验需要）
+samplesize <- readxl::read_xlsx(samplesize_file)
+merged_data$samplesize.exposure <- samplesize$Sample_size[match(merged_data$source_file, samplesize$Prefix)]
 
 merged_data <- merged_data %>%
   mutate(
@@ -63,6 +66,10 @@ merged_data <- merged_data %>%
       se.exposure
     )
   )
+
+# 排除弱工具变量（F < 10）
+merged_data$F_statistics<-(merged_data$beta.exposure)^2/(merged_data$se.exposure)^2
+merged_data <- subset(merged_data, F_statistics >= 10)
 
 
 # 检查结果

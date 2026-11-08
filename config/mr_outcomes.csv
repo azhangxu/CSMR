@@ -1,0 +1,13 @@
+cancer,gwas_source,n_case,n_control
+Breast cancer,https://opengwas.io/datasets/ieu-a-1126,122977,105974
+Melanoma,https://gwas.mrcieu.ac.uk/datasets/ieu-b-4969/,3751,372016
+Small cell lung cancer,https://www.ebi.ac.uk/gwas/efotraits/MONDO_0008433,2664,21444
+Clear cell renal cell carcinoma,https://www.ebi.ac.uk/gwas/studies/GCST90320058,14627,738190
+Lung squamous cell carcinoma,https://gwas.mrcieu.ac.uk/datasets/ieu-a-989/,7704,54763
+Lung adenocarcinoma,https://gwas.mrcieu.ac.uk/datasets/ieu-a-984/,11245,54619
+Colorectal cancer,https://www.ebi.ac.uk/gwas/studies/GCST012879,19948,12124
+Prostate cancer,https://opengwas.io/datasets/ebi-a-GCST006085,79148,61106
+Ovarian cancer,https://opengwas.io/datasets/ieu-a-1120,25509,40941
+Lung cancer,https://opengwas.io/datasets/ebi-a-GCST004748,29266,56450
+Endometrial cancer,https://opengwas.io/datasets/ebi-a-GCST006464,12906,108979
+Thyroid cancer,https://www.ebi.ac.uk/gwas/studies/GCST90399736,6015,1333754

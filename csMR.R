@@ -1,8 +1,13 @@
-setwd("/home/y410993/zx/onek1k/")
 library(data.table)
 library(TwoSampleMR)
 library(tidyverse)
-Sys.setenv(OPENGWAS_JWT="eyJhbGciOiJSUzI1NiIsImtpZCI6ImFwaS1qd3QiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhcGkub3Blbmd3YXMuaW8iLCJhdWQiOiJhcGkub3Blbmd3YXMuaW8iLCJzdWIiOiIxODk0NzEzNDczMUAxNjMuY29tIiwiaWF0IjoxNzYyMTY0NzU3LCJleHAiOjE3NjMzNzQzNTd9.wBt7RZ-N9MvuIqplfs53ooPDkogIzrj3Q80KTyC2hfFOGUS0-Tw-mkVoYiWbBuh8rq9yEyryfq7e45v0q4iS0-7_lRGJuLpwD-Nrau9hxIMDITFVzNGr8ajWod3Xgsq0lKE_UDNGSI5AB9Czw9eI5bseYeeJZaVT9q-eM1IpNmLtVjj8euwbjU1saYPTavgIW1x_5f2_NlSVFx-NMG9jsTiyvY_CH017RLe4TNJe_dwkxx7tV1j1bwW7KRYBYg3gO4cxuf5PHBGO08QdMPkSkw6Vm3Ube_ANeifY_Ol-DaDRqQqh6Y3upSfxklAqPhUxfG5V--d_SVzv0oyBuoFyNA")
+
+# clump_data() 调用 OpenGWAS API。令牌写在 ~/.Renviron（OPENGWAS_JWT=<token>），不要写进代码
+if (Sys.getenv("OPENGWAS_JWT") == "") stop("OPENGWAS_JWT is not set; add it to ~/.Renviron")
+
+onek1k_dir     <- "data/onek1k"          # OneK1K 的 <cell>_eqtl_table.tsv.gz
+instrument_dir <- "results/instruments"  # 每个细胞类型的工具变量
+dir.create(instrument_dir, recursive = TRUE, showWarnings = FALSE)
 
 # 可选：明确使用 TwoSampleMR 的 format_data
 # install.packages("TwoSampleMR")
@@ -26,7 +31,6 @@ fmt_args <- list(
   units_col = "units",
   ncase_col = "ncase",
   ncontrol_col = "ncontrol",
-  samplesize_col = 982,
   gene_col = "gene",
   id_col = "GENE",
   min_pval = 1e-200,
@@ -70,7 +74,6 @@ format_eqtl_by_gene <- function(df, fmt_args, prefer_best_per_snp = FALSE) {
       units_col = fmt_args$units_col,
       ncase_col = fmt_args$ncase_col,
       ncontrol_col = fmt_args$ncontrol_col,
-      samplesize_col = fmt_args$samplesize_col,
       gene_col = fmt_args$gene_col,
       id_col = fmt_args$id_col,
       min_pval = fmt_args$min_pval,
@@ -86,7 +89,7 @@ format_eqtl_by_gene <- function(df, fmt_args, prefer_best_per_snp = FALSE) {
 }
 
 
-files <- dir_ls(input_dir, regexp = "eqtl_table\\.tsv\\.gz$")
+files <- list.files(onek1k_dir, pattern = "eqtl_table\\.tsv\\.gz$", full.names = TRUE)
 prefix <- str_extract(basename(files), "^[^_]+")
 
 
@@ -94,7 +97,7 @@ prefix <- str_extract(basename(files), "^[^_]+")
 
 
 ######
-for (i in 1:14) {
+for (i in seq_along(files)) {
   f<-fread(files[i])
   f<-subset(f,P_VALUE<5e-08)
   f<- f |>
@@ -117,7 +120,7 @@ for (i in 1:14) {
   # 如果希望每个基因内部，同一 SNP 仅保留最显著一条，设 TRUE
   exp <- format_eqtl_by_gene(f, fmt_args, prefer_best_per_snp = TRUE)
   exp1<-TwoSampleMR::clump_data(exp,clump_kb = 10000,clump_r2 = 0.001)
-  writexl::write_xlsx(x = exp1,path = paste0("formatted/",prefix[i],".xlsx"))
+  writexl::write_xlsx(x = exp1,path = file.path(instrument_dir, paste0(prefix[i],".xlsx")))
 }
 
 

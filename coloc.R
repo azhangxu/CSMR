@@ -7,21 +7,16 @@ library(purrr)
 library(TwoSampleMR)
 library(openxlsx2)
 library(data.table)
-setwd("/home/y410993/zx/OA/results/")
 ###########################################################################################
 
-samplesize<-read_xlsx("/home/y410993/zx/onek1k/eqtl_sample_size_table.xlsx")
+onek1k_dir  <- "data/onek1k"      # <cell>_eqtl_table.tsv.gz 和 eqtl_sample_size_table.xlsx
+outcome_dir <- "data/outcome"     # <Cancer_name>_full_outcome.rds
+mr_sig_dir  <- "results/mr/sig"   # mr.R 输出的 FDR < 0.05 结果
+out_dir     <- "results/coloc"
+dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
 
-path <- "/home/y410993/zx/OA/"
-rds_files <- list.files(path, pattern = "\\.rds$", full.names = TRUE, recursive = TRUE)
-file_names <- basename(rds_files)
-rds_files <- rds_files[order(file_names)]
-tumor_names <- sub("_full_outcome\\.rds$", "", file_names)
-
-path1 <- "/home/y410993/zx/OA/results/sig/"
-rds_files1 <- list.files(path1, pattern = "\\.xlsx$", full.names = TRUE, recursive = TRUE)
-file_names1 <- basename(rds_files1)
-rds_files1 <- rds_files1[order(file_names1)]
+outcomes   <- read.csv("config/mr_outcomes.csv")
+samplesize <- read_xlsx(file.path(onek1k_dir, "eqtl_sample_size_table.xlsx"))
 
 maf_from_eaf <- function(eaf) {
   eaf <- as.numeric(eaf)
@@ -34,13 +29,13 @@ maf_from_eaf <- function(eaf) {
 # 建议先准备一个容器
 all_summary <- list()
 k <- 1
-i=1
-j=1
-m=1
-for (i in 1:9) {
+for (i in seq_len(nrow(outcomes))) {
+  cancer      <- outcomes$cancer[i]
+  cancer_file <- gsub(" ", "_", cancer)
+
   # 读sig：失败就跳过本 i
   sig <- tryCatch({
-    openxlsx2::read_xlsx(rds_files1[i])
+    openxlsx2::read_xlsx(file.path(mr_sig_dir, paste0("res_mi_sig_", cancer_file, "_full_outcome.xlsx")))
   }, error = function(e) {
     message(sprintf("[skip i=%d] read_xlsx error: %s", i, e$message))
     return(NULL)
@@ -57,23 +52,23 @@ for (i in 1:9) {
   
   # 读RDS：失败就跳过本 i
   f <- tryCatch({
-    readRDS(rds_files[i])
+    readRDS(file.path(outcome_dir, paste0(cancer_file, "_full_outcome.rds")))
   }, error = function(e) {
     message(sprintf("[skip i=%d] readRDS error: %s", i, e$message))
     return(NULL)
   })
   if (is.null(f)) next
   
-  f$ncase.outcome =	25509
-  f$ncontrol.outcome = 40941
+  # 每个癌种自己的病例/对照数（config/mr_outcomes.csv）
+  f$ncase.outcome    <- outcomes$n_case[i]
+  f$ncontrol.outcome <- outcomes$n_control[i]
   
   only <- unique(sig$cell)
   for (j in seq_along(only)) {
     
     # 读 eQTL：失败就跳过本 j
     cell <- tryCatch({
-      data.table::fread(paste0("/home/y410993/zx/onek1k/",
-                               only[j], "_eqtl_table.tsv.gz"))
+      data.table::fread(file.path(onek1k_dir, paste0(only[j], "_eqtl_table.tsv.gz")))
     }, error = function(e) {
       message(sprintf("[skip i=%d j=%d] fread error: %s", i, j, e$message))
       return(NULL)
@@ -99,7 +94,7 @@ for (i in 1:9) {
       
       ok <- tryCatch({
         # ===== 核心计算开始 =====
-        sig_cell <- dplyr::filter(cell, GENE == sig_gene$gene[m])
+        sig_cell <- dplyr::filter(cell, GENE == only_gene[m])
         if (nrow(sig_cell) == 0) stop("sig_cell empty")
         
         # 计算列
@@ -111,14 +106,8 @@ for (i in 1:9) {
         sig_cell$verbeta      <- (sig_cell$se)^2
         sig_cell$N            <- N
         
-        # 取最小P的POS并圈定GWAS窗口
-        POS <- sig_cell$POS[which.min(sig_cell$P_VALUE)]
-        gwas <- dplyr::filter(
-          f,
-          chr.outcome == sig_cell$CHR[1]#,
-          #pos.outcome >= (POS - 1e6),
-          #pos.outcome <= (POS + 1e6)
-        )
+        # 共定位区域：该基因在 OneK1K cis-eQTL 表中检验过的全部 SNP，与同一染色体上的 GWAS SNP 取交集
+        gwas <- dplyr::filter(f, chr.outcome == sig_cell$CHR[1])
         if (nrow(gwas) == 0) stop("gwas window empty")
         
         gwas[["z-score"]] <- qnorm(gwas$pval.outcome/2, lower.tail = FALSE)
@@ -184,8 +173,7 @@ for (i in 1:9) {
         Summary$SNP.PP.H4 <- ss$SNP.PP.H4[1]
         Summary$cell      <- only[j]
         Summary$gene      <- only_gene[m]
-        Summary$cancer    <- tumor_names[i]
-        #writexl::write_xlsx(Summary,paste0("/home/y410993/zx/onek1k/coloc_new/",sig_gene$gene[m],"_",only[j],"_",tumor_names[i],".xlsx")) 
+        Summary$cancer    <- cancer
         all_summary[[k]] <- Summary
         k <- k + 1
         TRUE
@@ -202,6 +190,6 @@ for (i in 1:9) {
 
 # 合并保存
 final_summary <- dplyr::bind_rows(all_summary)
-writexl::write_xlsx(final_summary, "coloc_all_summary.xlsx")
+writexl::write_xlsx(final_summary, file.path(out_dir, "coloc_all_summary.xlsx"))
 
 
